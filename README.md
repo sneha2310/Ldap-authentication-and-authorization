@@ -20,7 +20,7 @@ In the phpAdmin, the following configuration is done.
 
 # Step for Set Up
 ``` 
- 1. git clone https://github.com/gowthamand/django-crud-ajax-login-register-fileupload
+ 1. git clone https://github.com/sneha2310/Ldap-authentication-and-authorization.git
 
  2. Change settings.py MYSQL CONFIGURATIONS (name, user, password)
 
