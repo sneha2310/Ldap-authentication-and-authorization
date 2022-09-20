@@ -4,7 +4,7 @@ This is the  login page from where user can easily access the dashboard using ld
 
     ![image](https://user-images.githubusercontent.com/67871362/191244747-12ba13a8-4d75-4690-bcc9-9c7f46113299.png)  
    
-Here there are 2 users i.e. sneha( superuser ) & parinati( staff user ) .The following user has following permissions.
+Here there are 2 users i.e. ishineha( superuser ) & parinati( staff user ) .The following user has following permissions.
     • Superuser has access for the dashboard as well as the for the CRUD operation.
     • Staff user has authentication access but not authorization access i.e user can’t do CRUD operation but can only view.
 In Active Directory, following objectclasses are used for providing access to the user.
