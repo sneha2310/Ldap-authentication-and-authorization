@@ -2,7 +2,7 @@ LDAP AUTHENTICATION
 
 This is the  login page from where user can easily access the dashboard using ldap credentials.
 
-    ![image](https://user-images.githubusercontent.com/67871362/191244747-12ba13a8-4d75-4690-bcc9-9c7f46113299.png)  
+   ![image](https://user-images.githubusercontent.com/67871362/191244747-12ba13a8-4d75-4690-bcc9-9c7f46113299.png)  
    
 Here there are 2 users i.e. ishineha( superuser ) & parinati( staff user ) .The following user has following permissions.
     • Superuser has access for the dashboard as well as the for the CRUD operation.
@@ -15,7 +15,7 @@ In Active Directory, following objectclasses are used for providing access to th
 In the phpAdmin, the following configuration is done.
                                                                                                                                                              ![image](https://user-images.githubusercontent.com/67871362/191244948-4b629ff2-9b03-426a-9436-11e09f30060a.png)
 
-    ![image](https://user-images.githubusercontent.com/67871362/191244990-7b97ba94-ad80-4428-957b-4bb861e6dea0.png)
+   ![image](https://user-images.githubusercontent.com/67871362/191244990-7b97ba94-ad80-4428-957b-4bb861e6dea0.png)
 
 
 # Step for Set Up
