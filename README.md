@@ -11,7 +11,15 @@ In Active Directory, following objectclasses are used for providing access to th
                                                                                                                                                              ![image](https://user-images.githubusercontent.com/67871362/191244803-e102cc3e-2f1e-4ca9-a219-f6270866c0c7.png)
                                                                                                                                                              ![image](https://user-images.githubusercontent.com/67871362/191244932-20182e24-21ea-48f8-965b-93f841c78d1e.png)
 
-
+For ou=groups,domainname:
+    • objectclass: top, groupofnames, member
+For ou=users,domainname:
+    • objectclass:top, intorgperson, organisationalPerson, Person
+    • uid: sneha
+    • givenname: sneha
+    • sn: vishwakarma
+    • cn: sneha
+    
 In the phpAdmin, the following configuration is done.
                                                                                                                                                              ![image](https://user-images.githubusercontent.com/67871362/191244948-4b629ff2-9b03-426a-9436-11e09f30060a.png)
 
@@ -37,6 +45,7 @@ In the phpAdmin, the following configuration is done.
  8. Login to http://127.0.0.1:8000
 
  9. python manage.py createsuperuser (enter username, email, password)
+ 
 
 ```
 Add the following lines in settings.py for Authentication
